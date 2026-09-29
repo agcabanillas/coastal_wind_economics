@@ -1,0 +1,5 @@
+pandas>=2.2
+geopandas>=1.0
+pyogrio>=0.9
+requests
+pytest
