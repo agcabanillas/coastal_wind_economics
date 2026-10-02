@@ -1,4 +1,4 @@
-![tests](https://github.com/agcabanillas/coastal-wind-economics/actions/workflows/ci.yml/badge.svg)
+![tests](https://github.com/agcabanillas/coastal_wind_economics/actions/workflows/ci.yml/badge.svg)
 
 # Coastal economies and the offshore wind pipeline
 
