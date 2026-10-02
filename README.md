@@ -13,7 +13,7 @@ relative to the size of their economy?
 4. `load_database.py` loads three tables into SQLite and exports the result
 5. `sql/analysis.sql` holds the analysis, run with `run_query.py`
 6. `export_region_geometry.py` writes the analysed regions as GeoJSON for mapping
-7. 
+   
 ## Data sources
 
 - EMODnet Human Activities, offshore wind farms, originator CETMAR, CC-BY 4.0
