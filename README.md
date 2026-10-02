@@ -12,7 +12,8 @@ relative to the size of their economy?
 3. `assign_regions.py` assigns each project to its nearest NUTS3 region
 4. `load_database.py` loads three tables into SQLite and exports the result
 5. `sql/analysis.sql` holds the analysis, run with `run_query.py`
-
+6. `export_region_geometry.py` writes the analysed regions as GeoJSON for mapping
+7. 
 ## Data sources
 
 - EMODnet Human Activities, offshore wind farms, originator CETMAR, CC-BY 4.0
@@ -45,7 +46,7 @@ relative to the size of their economy?
 
 ## Dashboard
 
-[Tableau link goes here]
+  https://public.tableau.com/app/profile/alejandra.g.cabanillas/viz/Coastaleconomiesandtheoffshorewindpipeline/Dashboard1
 
 ## Running it
 
@@ -55,4 +56,5 @@ relative to the size of their economy?
     python fetch_eurostat.py --year 2023
     python assign_regions.py
     python load_database.py
+    python export_region_geometry.py
     pytest
